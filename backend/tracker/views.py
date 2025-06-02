@@ -5,6 +5,7 @@ from rest_framework.response import Response
 from .models import Plane  
 from .serializers import PlaneSerializer  
 
+"""Tüm uçak verilerine CRUD işlemi için API endpoint oluşturuyor."""
 class PlaneViewSet(viewsets.ModelViewSet):
     queryset = Plane.objects.all()
     serializer_class = PlaneSerializer
@@ -53,4 +54,5 @@ def get_plane_trail(request, plane_id):
         })
     except Plane.DoesNotExist:
         return Response({"error": "Plane not found"}, status=404)
+    
     

@@ -2,9 +2,16 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
+    "@mapbox/mapbox-gl-draw": "^1.5.0",
+    "@mapbox/mapbox-gl-geocoder": "^5.0.3",
     "@mui/icons-material": "^7.1.0",
     "@mui/material": "^7.1.0",
+    "@types/three": "^0.176.0",
     "axios": "^1.9.0",
-    "mapbox-gl": "^3.12.0"
+    "leaflet": "^1.9.4",
+    "mapbox-gl": "^3.12.0",
+    "react-leaflet": "^5.0.0",
+    "react-map-gl": "^6.1.21",
+    "three": "^0.177.0"
   }
 }
